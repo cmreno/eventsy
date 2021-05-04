@@ -1,0 +1,86 @@
+.head {
+  margin: 0 auto;
+  width: 980px;
+
+  h1 {
+    margin-top: 65.5px;
+    width: 229px;
+    font-family: Gil;
+    font-size: 25px;
+    border-bottom: black solid 2px;
+    margin-bottom: 40px;
+  }
+}
+.gallery-images {
+  margin: 0 auto 40px auto;
+  width: 980px;
+  height: 550px;
+  .food-festival {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 489px;
+    height: 187px;
+    background-image: linear-gradient(
+        to right,
+        $yellow-overlay,
+        $yellow-overlay
+      ),
+      url(../images/gallery/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .dee-jay {
+    position: relative;
+    top: -187px;
+    left: 509px;
+    width: 187px;
+    height: 187px;
+    background-image: linear-gradient(to right, $pink-overlay, $pink-overlay),
+      url(../images/gallery/2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .speech {
+    position: relative;
+    top: -374px;
+    left: 716px;
+    width: 265px;
+    height: 187px;
+    background-image: linear-gradient(to right, $green-overlay, $green-overlay),
+      url(../images/gallery/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .open-food {
+    position: relative;
+    left: 0;
+    top: -354px;
+    width: 603px;
+    height: 306px;
+    background-image: linear-gradient(
+        to right,
+        $purple-overlay,
+        $purple-overlay
+      ),
+      url(../images/gallery/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .international {
+    position: relative;
+    top: -660px;
+    left: 623px;
+    width: 355px;
+    height: 306px;
+    background-image: linear-gradient(to right, $blue-overlay, $blue-overlay),
+      url(../images/gallery/5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

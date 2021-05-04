@@ -1,0 +1,84 @@
+.page-head {
+  width: 980px;
+  margin: 65.5px auto 41px auto;
+  h1 {
+    width: 229px;
+    border-bottom: solid black 2px;
+    font-family: Gil;
+    font-size: 25px;
+    padding-bottom: 10.5px;
+  }
+}
+.blogs {
+  width: 980px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 86px;
+  .blog-post {
+    min-height: 257px;
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    .date {
+      min-height: 257px;
+      .date-img {
+        width: 60px;
+        height: 60px;
+      }
+      .date1 {
+        background-image: url(../images/jun6.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .date2 {
+        background-image: url(../images/jul30.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .date3 {
+        background-image: url(../images/aug30.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .date4 {
+        background-image: url(../images/nov23.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .date5 {
+        background-image: url(../images/dec23.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+    }
+    .blog-content {
+      width: 380px;
+      .blog-head {
+        width: 380px;
+        height: 140px;
+        background-image: url(../images/blog.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .blog-title {
+        font-family: Gil;
+        font-size: 15px;
+        margin: 20px 0 11px 0;
+      }
+      .blog-entry {
+        font-family: Gil;
+        font-size: 13px;
+        color: $site-pink;
+      }
+    }
+  }
+}

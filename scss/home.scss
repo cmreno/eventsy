@@ -1,0 +1,160 @@
+.hero {
+  min-height: 500px;
+  background-image: linear-gradient(to right, $yellow-overlay, $yellow-overlay),
+    url(../images/home-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  nav {
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20.5px;
+    max-width: 980px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+
+    .logo {
+      background-image: url(../images/logo/logo-white.png);
+      width: 92px;
+      height: 42px;
+    }
+    .links {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      a {
+        color: white;
+        font-family: Gil;
+        font-size: 15px;
+        text-decoration: none;
+      }
+      .pipe {
+        color: $site-pink;
+        min-height: 21.5px;
+        font-size: 25px;
+        padding: 0 13.5px;
+      }
+    }
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      color: white;
+      font-family: PTReg;
+      font-size: 40px;
+      padding-top: 63.5px;
+    }
+    h3 {
+      color: $site-pink;
+      font-family: Gil;
+      font-size: 20px;
+      font-style: italic;
+      margin-top: 10px;
+      margin-bottom: 50px;
+    }
+    h2 {
+      color: white;
+      font-family: Gil;
+      font-size: 20px;
+      font-style: italic;
+      max-width: 416px;
+      text-align: center;
+      padding-bottom: 50px;
+    }
+    input {
+      width: 122px;
+      height: 40px;
+      border: none;
+      background-color: $site-pink;
+      color: white;
+      font-family: Gil;
+      font-size: 15px;
+    }
+  }
+}
+.quote {
+  min-height: 300px;
+  .quote-content {
+    max-width: 789px;
+    margin: 0 auto;
+    p {
+      color: $site-yellow;
+      font-family: Gil;
+      font-size: 15px;
+      font-style: italic;
+      padding-bottom: 20px;
+      padding-top: 77px;
+    }
+    h4 {
+      color: $site-pink;
+      font-family: PTReg;
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+    h5 {
+      color: grey;
+      font-family: PTReg;
+      font-size: 10px;
+      margin-bottom: 76px;
+    }
+  }
+}
+.events {
+  min-height: 320px;
+  background-color: $site-purple;
+
+  h1 {
+    font-family: Gil;
+    color: white;
+    font-size: 25px;
+    border-bottom: solid white 2px;
+    width: 392px;
+    margin-left: 40.5px;
+    padding-top: 50px;
+  }
+  .coming-events {
+    margin-left: 40.5px;
+    margin-top: 34.5px;
+    min-width: 280px;
+    display: flex;
+    justify-content: space-around;
+    .event {
+      display: flex;
+      .date-icon {
+        background-image: url(../images/jun6.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 60px;
+        width: 60px;
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .date-info {
+        p {
+          width: 140px;
+        }
+        .upper {
+          color: white;
+          font-family: Gil;
+          font-size: 15px;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+        .lower {
+          color: $site-pink;
+          font-family: Gil;
+          font-size: 13px;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}

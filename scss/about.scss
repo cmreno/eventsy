@@ -1,0 +1,35 @@
+.lrgimg {
+  margin: 85.5px auto 0 auto;
+  min-height: 378px;
+  width: 980px;
+  background-image: linear-gradient(to right, $yellow-overlay, $yellow-overlay),
+    url(../images/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 85.5px;
+}
+.about-content {
+  .page-header {
+    width: 980px;
+    margin: 0 auto;
+    h1 {
+      font-family: Gil;
+      color: black;
+      font-size: 25px;
+      width: 229px;
+      border-bottom: black 2px solid;
+      padding-bottom: 10px;
+      position: relative;
+      top: -25px;
+    }
+  }
+
+  p {
+    font-family: Gil;
+    font-size: 16px;
+    font-style: italic;
+    width: 980px;
+    margin: 36.5px auto 95px auto;
+  }
+}

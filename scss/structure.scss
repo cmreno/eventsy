@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Gil;
+  src: url(../fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: PTBold;
+  src: url(../fonts/PTSerif-Bold.ttf);
+}
+@font-face {
+  font-family: PTBoldItal;
+  src: url(../fonts/PTSerif-BoldItalic.ttf);
+}
+@font-face {
+  font-family: PTItal;
+  src: url(../fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: PTReg;
+  src: url(../fonts/PTSerif-Regular.ttf);
+}
+
+footer {
+  width: 100%;
+  min-height: 455px;
+  background-color: $site-pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    background-image: url(../images/logo/logo-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 46px 0;
+  }
+  .address {
+    color: white;
+    font-family: Gil;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .subscribe {
+    margin-top: 46px;
+    .email {
+      width: 529px;
+      height: 60px;
+      background-color: $light-pink;
+      color: white;
+      border: none;
+      padding: 20px;
+      font-family: Gil;
+      font-size: 16px;
+    }
+    .sub-btn {
+      height: 60px;
+      width: 167px;
+      background-color: white;
+      color: $site-pink;
+      font-family: Gil;
+      font-size: 16px;
+      border: none;
+    }
+  }
+  .socials {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    .fb {
+      height: 31px;
+      width: 31px;
+      background-image: url(../images/social-media/facebook.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .insta {
+      height: 31px;
+      width: 31px;
+      background-image: url(../images/social-media/instagram.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .twitter {
+      height: 31px;
+      width: 31px;
+      background-image: url(../images/social-media/twitter.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+  .copyright {
+    font-family: Gil;
+    color: $light-pink;
+    font-size: 12px;
+    margin-top: 46px;
+    margin-bottom: 36px;
+  }
+}
+header {
+  nav {
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20.5px;
+    max-width: 980px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    .logo {
+      background-image: url(../images/logo/logo-black.png);
+      width: 92px;
+      height: 42px;
+    }
+    .links {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      a {
+        color: black;
+        font-family: Gil;
+        font-size: 15px;
+        text-decoration: none;
+      }
+      .pipe {
+        color: $site-pink;
+        min-height: 21.5px;
+        font-size: 25px;
+        padding: 0 13.5px;
+      }
+    }
+  }
+}

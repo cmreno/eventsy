@@ -1,0 +1,66 @@
+.blog-head-img {
+  width: 980px;
+  height: 300px;
+  margin: 55px auto 0 auto;
+  background-image: linear-gradient(to right, $pink-overlay, $pink-overlay),
+    url(../images/blog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .blog-date {
+    width: 155px;
+    height: 155px;
+  }
+  .blog1 {
+    background-image: url(../images/jun6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .blog2 {
+    background-image: url(../images/jul30.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .blog3 {
+    background-image: url(../images/aug30.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .blog4 {
+    background-image: url(../images/nov23.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .blog5 {
+    background-image: url(../images/dec23.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+.blog-info {
+  width: 980px;
+  margin: 0 auto;
+  h3 {
+    font-family: Gil;
+    font-size: 20px;
+    color: $site-pink;
+    margin: 57px 0 30px 0;
+  }
+  p {
+    font-family: Gil;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 33px;
+  }
+  p:last-of-type {
+    padding-bottom: 120px;
+  }
+}
